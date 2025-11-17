@@ -4,6 +4,7 @@ Hybrid Drowsy Driver Detection with Alarm
 - Uses a CNN for facial expression (sleepy, neutral, happy, etc.)
 - Plays alarm when eyes stay closed too long
 """
+#comments added
 
 import cv2
 import mediapipe as mp
@@ -169,3 +170,4 @@ with mp_face_mesh.FaceMesh(
 
 cap.release()
 cv2.destroyAllWindows()
+
